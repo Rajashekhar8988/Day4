@@ -1,4 +1,4 @@
-#!/bin/bash 
+#!/bin/bash  
 for files in *
 do
 	ext=`echo $files | awk -F. '{print $2}'`;
